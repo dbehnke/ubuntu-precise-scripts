@@ -1,5 +1,4 @@
 #!/bin/bash
-#Last Modified 5/9/2012
 
 #ppa customization
 
