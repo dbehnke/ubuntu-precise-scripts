@@ -1,5 +1,5 @@
 #!/bin/bash
-#Last Modified 5/8/2012
+#Last Modified 5/9/2012
 
 #ppa customization
 
@@ -28,10 +28,14 @@ sudo add-apt-repository -y ppa:webupd8team/jupiter
 sudo add-apt-repository -y ppa:webupd8team/y-ppa-manager
 
 #newsgroup reader
-sudo add-apt-repository -y ppa:jcfp/ppa
+#sudo add-apt-repository -y ppa:jcfp/ppa
 
 #change default behavior - minimize on unity button click
 #sudo add-apt-repository ppa:ojno/unity-minimize-on-click
+
+#icon set
+#http://www.ubuntuvibes.com/2012/04/install-beautiful-fs-icons-set-in.html#more
+#sudo add-apt-repository -y ppa:kroq-gar78/ppa
 
 #wine
 #sudo add-apt-repository -y ppa:ubuntu-wine/ppa
@@ -40,25 +44,25 @@ sudo add-apt-repository -y ppa:jcfp/ppa
 sudo add-apt-repository -y ppa:kevin-mehall/pithos-daily
 
 #faenza icons
-sudo add-apt-repository -y ppa:tiheum/equinox
+#sudo add-apt-repository -y ppa:tiheum/equinox
 
 #run an update
 sudo apt-get update
 
 #software in standard repositories / ppa mixed
 
-sudo apt-get install geany gnome-tweak-tool chromium-browser gpodder \
-vim git bzr bzr-git mercurial python3 pidgin guake firefox thunderbird \
-shotwell rhythmbox aptitude synaptic ubuntu-restricted-extras \
-ppa-purge indicator-weather keepassx lo-menubar myunity \
-nautilus-dropbox indicator-cpufreq laptop-mode-tools \
-network-manager-openconnect-gnome task vlc htop powertop pithos \
-gnome-tweak-tool fonts-droid
+#sudo apt-get install geany gnome-tweak-tool chromium-browser gpodder \
+#vim git bzr bzr-git mercurial python3 pidgin guake firefox thunderbird \
+#shotwell rhythmbox aptitude synaptic ubuntu-restricted-extras \
+#ppa-purge indicator-weather keepassx lo-menubar myunity \
+#nautilus-dropbox indicator-cpufreq laptop-mode-tools \
+#network-manager-openconnect-gnome task vlc htop powertop pithos \
+#gnome-tweak-tool fonts-droid
 
 #software in ppas only
 
 #icons
-sudo apt-get install faenza-icon-theme
+#sudo apt-get install faenza-icon-theme
 
 sudo apt-get install unsettings 
 sudo apt-get install ubuntu-tweak 
@@ -73,13 +77,13 @@ sudo apt-get install indicator-ubuntuone
 sudo apt-get install indicator-multiload
 
 #battery life
-sudo apt-get install jupiter
+#sudo apt-get install jupiter
 
 #y-ppa-manager
-sudo apt-get install y-ppa-manager
+#sudo apt-get install y-ppa-manager
 
 #newsgroup reader
-sudo apt-get install sabnzbdplus
+#sudo apt-get install sabnzbdplus
 
 #unity-minmize-on-click
 ##sudo apt-get upgrade
